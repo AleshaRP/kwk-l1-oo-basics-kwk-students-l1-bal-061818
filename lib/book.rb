@@ -1,20 +1,20 @@
 # book.rb
-class Book 
+class Book
   def initialize (title)
     @title = title
   end
 
-  def title 
+  def title
     @title
   end
-  def author = (author)
+  def author =(author)
     @author = author
   end
 
   def author
     @authore
   end
-  def page_count = (pages)
+  def page_count =(pages)
     @page_count = pages
   end
   def page_count
@@ -31,4 +31,4 @@ class Book
    end
 
    Harry_Potter = Book.new ("Harry Potter and the Sorcerer's Stone")
-   Harry_Potter.turn_page 
+   Harry_Potter.turn_page
